@@ -1,0 +1,51 @@
+aaa:
+1.pycharm的NieR path
+执行的NieR path
+
+2.pycharm的ws也放在1drive上
+
+3.每次执行的时候，比较：
+	用NieR.xlsx里py_files的类名
+	比
+	pycharm里的NieR里的类名
+
+4.添加模块方式 2选1
+	1 完全自动化，每次，通过aaa来添加或者删除py文件
+	2 excel里添加字段，NieR里添加py
+	
+======================================================
+aa:
+1.只管执行，代码永远不变
+
+
+2.指令执行，拿NieR.xlsx，然后找到所有的py文件
+用字典，而不是用if来进行执行
+
+
+
+
+3.类别
+将NieR的选项全部分类，用树形结构分为3层，但是选择番号独立
+根据类别show到前台
+
+======================================================
+NieR.xlsx
+
+1.py_files的表头
+	表头：id,number,description,py_file,type,
+	各种py file的信息
+
+2.constructor sheet：
+	表头：id,name,path
+
+	NieR_pycharm_path
+	NieR_exe_path
+
+3.path:
+	表头：id,description,path,
+	各种本地执行需要用到的工具的path
+
+
+=======================================================
+4.最终测试，自动部署
+测试场景：新的windows电脑，download 1drive上的东西，然后部署好所有的
